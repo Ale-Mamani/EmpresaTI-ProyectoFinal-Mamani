@@ -1,0 +1,193 @@
+                        /* servicios */
+                        
+                        .card {
+                            margin: 8rem;
+                        }
+                        
+                        .navbar-nav {
+                            margin-left: 10rem;
+                        }
+                        
+                        .navbar-nav li {
+                            margin-right: 2rem;
+                            margin-left: 2rem;
+                        }
+                        
+                        .imagen-Nombre {
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        .imagen-Nombre h3 {
+                            font-size: large;
+                            margin-top: 0.8rem;
+                            margin-left: 0.5rem;
+                        }
+                        
+                        .cabeceraLogo {
+                            height: 7rem;
+                        }
+                        /* footer */
+                        
+                        .barraRedes {
+                            display: flex;
+                            align-items: center;
+                            list-style: none;
+                            background-image: url(./imagenes/fondo-menu2.jpg);
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        
+                        .barraRedes h4 {
+                            color: white;
+                        }
+                        
+                        .barraRedes a {
+                            display: block;
+                            align-items: center;
+                        }
+                        
+                        .logoRedes {
+                            width: 100px;
+                            margin-top: 1rem;
+                            margin-left: 5rem;
+                        }
+                        
+                        .btn {
+                            margin-left: 7rem;
+                            margin-bottom: 1rem;
+                            margin-top: 0.2rem;
+                        }
+                        
+                        p {
+                            font-style: inherit;
+                            color: white;
+                        }
+                        
+                        .tituloPagina {
+                            text-align: center;
+                            color: white;
+                        }
+                        
+                        .main {
+                            background-image: url(./imagenes/fondoAzul.jpg)
+                        }
+                        /* index */
+                        
+                        .textoCarrusel {
+                            color: black;
+                        }
+                        
+                        .imgCarrusel {
+                            padding: 1rem;
+                            height: 500px;
+                            width: 1000px;
+                        }
+                        
+                        .mainIndex {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        .parrafoIndex {
+                            padding: 50px;
+                            color: white;
+                            text-decoration: solid;
+                            text-align: center;
+                        }
+                        
+                        .parrafo {
+                            padding: 50px;
+                            color: white;
+                            text-decoration: solid;
+                            text-align: center;
+                            font-size: larger;
+                        }
+                        
+                        .mapa {
+                            width: 1000px;
+                            height: 300px;
+                        }
+                        
+                        .mapaSection {
+                            display: flex;
+                            align-items: center;
+                            background-color: black;
+                            justify-content: center;
+                            margin-top: 3rem;
+                            margin-bottom: 3rem;
+                        }
+                        /* quienes somos */
+                        
+                        .quienesSomos {
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        .aQuienesSomos {
+                            padding-left: -30px;
+                        }
+                        /* servicios */
+                        
+                        .mainServicios p {
+                            color: black;
+                            font-size: larger;
+                        }
+                        
+                        .mainServicios img {
+                            width: 300px;
+                            height: 200px;
+                            margin: 0;
+                        }
+                        
+                        .mainServicios {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            background-image: url(./imagenes/fondoAzul.jpg);
+                        }
+                        
+                        td,
+                        label,
+                        input {
+                            color: #ccc;
+                        }
+                        
+                        .mainEquipamiento a {
+                            color: #ccc
+                        }
+                        
+                        @media screen and (max-width:944px) {
+                            .mainIndex {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 5rem;
+                            }
+                            #carrusel {
+                                align-items: center;
+                            }
+                            .textoCarrusel {
+                                text-align: center;
+                                margin-left: 5rem;
+                            }
+                            @media screen and (max-width:891px) {
+                                .barraRedes {
+                                    flex-direction: column;
+                                    display: flex;
+                                    width: 100%;
+                                }
+                                .h4Footer {
+                                    width: 30%;
+                                    text-align: center;
+                                }
+                                .barraRedes li {
+                                    flex-direction: column;
+                                    width: auto;
+                                    align-items: center;
+                                    margin-right: 3rem;
+                                }
+                            }
+                        }
